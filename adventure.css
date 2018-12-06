@@ -1,0 +1,281 @@
+/* GENERAL STYLING */
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+	font-family: 'Lato', sans-serif;
+	color: #272822;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #272822;
+}
+
+/* COLUMN STYLING */
+.container {
+	display: table;
+	width:  100%;
+}
+
+.row {
+	display: table-row;
+}
+
+/* NAVIGATION BAR STYLING */
+header {
+	position: fixed;
+	background-color: white;
+    border-bottom: 2px solid #272822;
+}
+
+#navigation h1 {
+	display: table-cell;
+	width: 40%;
+	vertical-align: top;
+	padding: 1rem 2rem 1rem 2rem;
+	font-weight: bold;
+	font-size: 4rem;
+}
+
+#navigation nav {
+	display: table-cell;
+	width: 60%
+	vertical-align: top;
+	padding: 2.5rem 1rem 1rem 2rem;
+	float: right;
+}
+
+#navigation p {
+	display: inline;
+	margin: 1rem;
+	padding: 0 1rem 0 1rem;
+}
+
+/* HERO IMAGE STYLING */
+#hero {
+	background-image: url("images/hero.jpg");
+	background-size: cover;
+	text-align: center;
+	padding-bottom: 20rem;
+	text-shadow: 1px 1px 0.25px #000000;
+    border-bottom: 2px solid #272822;
+}
+
+#heroText {
+	padding-top: 13.7rem;
+}
+
+#hero h1 {
+	font-family: "Oswald";
+	font-size: 10rem;
+	color: white;
+	margin: 0;
+    text-shadow: 2px 2px 0.25px #000000;
+}
+
+#hero p {
+	font-family: "Oswald";
+	font-size: 2rem;
+	color: white;
+}
+
+#heroText p:nth-child(3) {
+	font-size: 1rem;
+}
+
+.btn {
+	display: inline-block;
+	border: 1px solid white;
+	border-radius: 0.5rem;
+	padding: 1rem;
+	margin-top: 1rem;
+	background-color: #001f46;
+	color: white;
+    text-shadow: none;
+}
+
+.btn:hover {
+	background-color: white;
+	color: #001f46;
+    border-color: #001f46;
+    text-shadow: none;
+}
+
+/* MAIN BLOCK STYLING */
+
+#main {
+	padding: 10rem 0 10rem 0;
+}
+
+#main .block {
+	display: table-cell;
+	vertical-align: top;
+	text-align: center;
+	width: 33.333%;
+}
+
+#main h2 {
+	font-size: 3rem;
+	font-family: "Oswald";
+	color: #001f46;
+	margin-bottom: 0;
+}
+
+#main p {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-top: 1rem;
+	line-height: 1.5;
+}
+
+/* GENERAL SECTION STYLING */
+
+.content {
+	display: table-cell;
+	vertical-align: top;
+	width: 50%;
+	line-height: 1.7;
+	float: right;
+	padding: 2.5rem;
+	text-align: center;
+	font-family: "Oswald";
+	text-shadow: 0.5px 0.5px 0.25px #000000;
+}
+
+.content p {
+	background-color: rgba(39, 40, 34, 0.9);
+	color: white;
+	border: 1px solid white;
+	border-radius: 1rem;
+	padding: 0.5rem;
+
+}
+
+.small {
+	font-size: 1rem;
+}
+
+.content h2, h3 {
+	font-family: "Oswald";
+	color: white;
+}
+
+.content h2 {
+	font-size: 4rem;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.content h3 {
+	font-size: 2.5rem;
+	margin-top: 0;
+}
+
+/* BIKE SPECIFIC STYLING*/
+
+#bike {
+	background-image: url("images/mtb.jpg");
+	background-size: cover;
+    border-bottom: 2px solid #272822;
+    border-top: 2px solid #272822;
+}
+
+/* HIKE SPECIFIC STYLING */
+
+#hike {
+	background-image: url("images/hike3.jpg");
+	background-size: cover;
+    border-bottom: 2px solid #272822;
+    border-top: 2px solid #272822;
+}
+
+#hike .content {
+	float: left;
+	width: 45%;
+}
+
+/* MAP SECTION STYLING */
+#map {
+	padding: 5rem 0 5rem 0;
+}
+
+.mapImg {
+	display: table-cell;
+	vertical-align: top;
+	width: 30%;
+}
+
+#map .block {
+	display: table-cell;
+	vertical-align: top;
+	width: 70%;
+	float: right;
+	padding-top: 3rem;
+	margin-right: 3rem;
+	text-align: center;
+}
+
+#map h2 {
+	font-family: "Oswald";
+	color: #001f46;
+	font-size: 3rem;
+}
+
+#map p {
+	font-weight: bold;
+}
+
+/* BOTTOM SECTION */
+#bottom {
+	text-align: center;
+	padding: 9rem 0 9rem 0;
+}
+
+#bottom a {
+	border-color: #001f46;
+}
+
+#bottom h2 {
+	font-family: "Oswald";
+	color: #001f46;
+	font-size: 3rem;
+}
+
+/* FOOTER SECTION */
+footer {
+	background-image: url("images/footer.jpg");
+	background-size: cover;
+    border-top: 2px solid #272822;
+}
+
+.icon {
+	width: 3.2rem;
+	height: 3.2rem;
+	padding: 1rem;
+}
+
+.media {
+	display: table-cell;
+	vertical-align: top;
+	width: 40%;
+	float: right;
+}
+
+.copyright {
+	display: table-cell;
+	vertical-align: top;
+	width: 60%;
+	margin: 0;
+	padding: 2rem 0 0 3rem;
+	color: white;
+}
+
+footer p {
+	display: inline;
+}
+
